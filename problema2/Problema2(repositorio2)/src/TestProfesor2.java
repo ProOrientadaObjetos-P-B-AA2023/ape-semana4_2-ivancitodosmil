@@ -6,10 +6,10 @@ class Profesor{
     private String cedula;
     private Provincia provincia;
 
-    public Profesor(String nombre, String apellido, double sueldoBasico, String cedula,Provincia provincia) {
+    public Profesor(String nombre, String apellido, double sueldobasico, String cedula,Provincia provincia) {
         this.nombre = nombre;
         this.apellido = apellido;
-        this.sueldobasico = sueldoBasico;
+        this.sueldobasico = sueldobasico;
         this.cedula = cedula;
         this.provincia=provincia;
     }
@@ -38,8 +38,8 @@ class Profesor{
         return sueldobasico;
     }
 
-    public void setSueldoBasico(double sueldoBasico) {
-        this.sueldobasico = sueldoBasico;
+    public void setSueldoBasico(double sueldobasico) {
+        this.sueldobasico = sueldobasico;
     }
 
     public double getSueldoTotal() {
